@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import PrimarySearchAppBar from './navbar/navbar';
+import Navbar2 from './navbar/navbar2';
+import SwipeableTextMobileStepper from './slider/SwipeableTextMobileStepper';
+import Cards from './cards/card';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PrimarySearchAppBar/>
+      <Navbar2/>
+      <SwipeableTextMobileStepper/>
+      <Cards/>
     </div>
   );
 }

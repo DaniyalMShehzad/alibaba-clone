@@ -68,7 +68,6 @@ function Cards() {
                 price: "13121.67",
             }
             ]
-        // {
             const arr3=[
             {
                 img: "https://s.alicdn.com/@sc04/kf/H33b294727cb1428ab1d221b9222a83a9n.jpg_120x120xz.jpg",
@@ -84,56 +83,57 @@ function Cards() {
             }
         ]
         // },
-        // {
-        //     data1: {
-        //         value: "1 pair",
-        //         img: "https://s.alicdn.com/@sc04/kf/H658f209c945d49d6a32d5649243945252.jpg_120x120xz.jpg",
-        //         price: "2677.77",
-        //     },
-        //     data2: {
-        //         value: "1 pair",
-        //         img: "https://s.alicdn.com/@sc04/kf/Hbf5b06a9f6ff47f29269d1339c76825d7.png_120x120xz.jpg",
-        //         price: "341.34",
-        //     },
-        //     data3: {
-        //         value: "1 pair",
-        //         img: "https://s.alicdn.com/@sc04/kf/Hbd9fa7e8c0ec47ac9da77be5d7ae3712h.jpg_120x120xz.jpg",
-        //         price: "531.73",
-        //     }
-        // },
-        // {
-        //     data1: {
-        //         value: "1 peice",
-        //         img: "https://s.alicdn.com/@sc04/kf/Hd70554d513594a089c09783fce08e55bD.jpg_120x120xz.jpg",
-        //         price: "7301.35",
-        //     },
-        //     data2: {
-        //         value: "1 peice",
-        //         img: "	https://s.alicdn.com/@sc04/kf/H524face07b6f4e77866abab13e408ef4M.jpg_120x120xz.jpg",
-        //         price: "377.36",
-        //     },
-        //     data3: {
-        //         value: "1 peice",
-        //         img: "	https://s.alicdn.com/@sc04/kf/Hc622bbe7815641b88b471b71dedb91b8i.jpg_120x120xz.jpg",
-        //         price: "341.34",
-        //     }
-        // },
-        // {
-        //     data1: {
-        //         img: "	https://s.alicdn.com/@sc04/kf/H222d522dde1f41a0a117ba76ec73a700B.jpg_120x120xz.jpg",
-        //         price: "504.29",
-        //     },
-        //     data2: {
-        //         img: "	https://s.alicdn.com/@sc04/kf/Hb44e39dcf9714bbe88e0118e9133f37ad.jpg_120x120xz.jpg",
-        //         price: "4974.23",
-        //     },
-        //     data3: {
-        //         img: "https://s.alicdn.com/@sc04/kf/Hbffdccecef044be49fdd7039e1207195l.jpg_120x120xz.jpg",
-        //         price: "1.72",
-        //     },
+        const arr4=  [
+            {
+                value: "1 pair",
+                img: "https://s.alicdn.com/@sc04/kf/H658f209c945d49d6a32d5649243945252.jpg_120x120xz.jpg",
+                price: "2677.77",
+            },
+            {
+                value: "1 pair",
+                img: "https://s.alicdn.com/@sc04/kf/Hbf5b06a9f6ff47f29269d1339c76825d7.png_120x120xz.jpg",
+                price: "341.34",
+            },
+            {
+                value: "1 pair",
+                img: "https://s.alicdn.com/@sc04/kf/Hbd9fa7e8c0ec47ac9da77be5d7ae3712h.jpg_120x120xz.jpg",
+                price: "531.73",
+            }]
+            const arr5 =[
+                    {
+                        value: "1 peice",
+                        img: "https://s.alicdn.com/@sc04/kf/Hd70554d513594a089c09783fce08e55bD.jpg_120x120xz.jpg",
+                        price: "7301.35",
+                    },
+                    {
+                        value: "1 peice",
+                        img: "	https://s.alicdn.com/@sc04/kf/H524face07b6f4e77866abab13e408ef4M.jpg_120x120xz.jpg",
+                        price: "377.36",
+                    },
+                    {
+                        value: "1 peice",
+                        img: "	https://s.alicdn.com/@sc04/kf/Hc622bbe7815641b88b471b71dedb91b8i.jpg_120x120xz.jpg",
+                        price: "341.34",
+                    }
+            ]
+            const arr6=[
+                    {
+                        img: "	https://s.alicdn.com/@sc04/kf/H222d522dde1f41a0a117ba76ec73a700B.jpg_120x120xz.jpg",
+                        price: "504.29",
+                    },
+                    {
+                        img: "	https://s.alicdn.com/@sc04/kf/Hb44e39dcf9714bbe88e0118e9133f37ad.jpg_120x120xz.jpg",
+                        price: "4974.23",
+                    },
+                    {
+                        img: "https://s.alicdn.com/@sc04/kf/Hbffdccecef044be49fdd7039e1207195l.jpg_120x120xz.jpg",
+                        price: "1.72",
+                    },
+            ]
     console.log(arr);
 
     return (
+        <div className="main">
         <div className="card">
             <div className="parent">
             {arr.map((e, i) => {
@@ -160,6 +160,18 @@ function Cards() {
             <div className="parent">
             {arr3.map((e, i) => {
                 return (
+                    <Card className="key" key={i}>
+                        <img src={e.img}/>
+                        <p><br/>{e.price}</p>                   
+                    </Card>
+                )
+            })}
+            </div>
+            </div>
+            <div className="cards">
+            <div className="parent2">
+            {arr4.map((e, i) => {
+                return (
                     <Card  key={i}>
                         <img src={e.img}/>
                         <p><br/>{e.price}</p>
@@ -168,8 +180,29 @@ function Cards() {
                 )
             })}
             </div>
+            <div className="parent2">
+            {arr5.map((e, i) => {
+                return (
+                    <Card  key={i}>
+                        <img src={e.img}/>
+                        <p><br/>{e.price}</p>
+                        <p><br/>{e.value}</p>                    
+                    </Card>
+                )
+            })}
+            </div>
+            <div className="parent2">
+            {arr6.map((e, i) => {
+                return (
+                    <Card className="key" key={i}>
+                        <img src={e.img}/>
+                        <p><br/>{e.price}</p>                 
+                    </Card>
+                )
+            })}
+            </div>
         </div>
-
+        </div>
     )
 }
 

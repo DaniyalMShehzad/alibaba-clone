@@ -9,6 +9,14 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import MultipleSelect from './dropdown';
+import MultipleSelect2 from './dropdown2';
+import MultipleSelect3 from './dropdown3';
+import MultipleSelect4 from './dropdown4';
+import MultipleSelect5 from './dropdown5';
+import MultipleSelect6 from './dropdown6';
+import MultipleSelect7 from './dropdown7';
+import MultipleSelect8 from './dropdown8';
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
@@ -56,13 +64,20 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <div>
-      <div>
-        
-      </div>
-
-    <div className="scroll">
-    <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
+    <div className="slider">
+      <div className="sli">
+            <h1>My Markets</h1>
+          <div className="class1">
+          <MultipleSelect/>
+          {/* <MultipleSelect2/>
+          <MultipleSelect3/>
+          <MultipleSelect4/>
+          <MultipleSelect5/>
+          <MultipleSelect6/>
+          <MultipleSelect7/>
+          <MultipleSelect8/> */}
+        </div>
+    <Box className="scrolling" sx={{ maxWidth: 600, flexGrow: 1 }}>
       <Paper
         square
         elevation={0}
@@ -88,9 +103,9 @@ function SwipeableTextMobileStepper() {
               <Box
                 component="img"
                 sx={{
-                  height: 255,
+                  height: 300,
                   display: 'block',
-                  maxWidth: 400,
+                  maxWidth: 600,
                   overflow: 'hidden',
                   width: '100%',
                 }}
@@ -132,7 +147,7 @@ function SwipeableTextMobileStepper() {
       />
     </Box>
     </div>
-  </div>
+    </div>
   );
 }
 

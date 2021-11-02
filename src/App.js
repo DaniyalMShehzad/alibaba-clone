@@ -4,14 +4,18 @@ import Navbar2 from './navbar/navbar2';
 import SwipeableTextMobileStepper from './slider/SwipeableTextMobileStepper';
 import Cards from './cards/card';
 import Footer from './footer/footer';
+import FullWidthGrid from './cards/card2';
 function App() {
   return (
     <div className="App">
       <PrimarySearchAppBar/>
       <Navbar2/>
-      <SwipeableTextMobileStepper/>
+      <div className="app2">
+      {/* <SwipeableTextMobileStepper/>
       <Cards/>
-      <Footer/>
+      <Footer/> */}
+      <FullWidthGrid/>
+      </div>
     </div>
   );
 }

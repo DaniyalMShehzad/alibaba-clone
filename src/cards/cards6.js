@@ -1,0 +1,52 @@
+import Card from '@mui/material/Card';
+function Cards6(){
+    const arr2=[
+        {
+            img:"",
+            button:"view more"
+        },
+        {
+            img:"",
+            value:"",
+        },
+    ]
+    return(
+        <div className="view1">
+            <div className="view2">
+                <div className="view3">
+                    <div className="viewchild">
+                    <img src="https://s.alicdn.com/@sc04/kf/Hd39432032dd449f4b95e1751322d099ef.jpg_220x220.jpg"/>
+                    <button>view more</button>
+                    </div>
+                    <div className="viewchild2">
+                    <img src="https://s.alicdn.com/@sc04/kf/H87587fa8b253432195e0b34cf36b9a202.jpg_220x220.jpg"/>
+                    <p>32.46</p>
+                    <p>46.71</p>
+                    </div>
+                </div>
+                <div className="view4">
+                <div className="viewchild">
+                    <img src="https://s.alicdn.com/@sc04/kf/H70d057c6333b4c21977053de02286461u.jpg_220x220.jpg"/>
+                    <button>view more</button>
+                    </div>
+                    <div className="viewchild2">
+                    <img src="https://s.alicdn.com/@sc04/kf/HTB1AZizaOHrK1Rjy0Flq6AsaFXae.jpg_220x220.jpg"/>
+                    <p>2,220.61</p>
+                    </div>
+                <div className="view5">
+                <div className="viewchild">
+                    <img src="https://s.alicdn.com/@sc04/kf/HTB1yATJaoLrK1Rjy0Fjq6zYXFXav.jpg_220x220.jpg"/>
+                    <button>view more</button>
+                    </div>
+                    <div className="viewchild2">
+                    <img src="https://s.alicdn.com/@sc04/kf/H6378f1d1ffd040b1b0f21e0689123cf6k.jpg_220x220.jpg"/>
+                    <p>1195.81</p>
+                    <p>24 picies MOQ</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default Cards6

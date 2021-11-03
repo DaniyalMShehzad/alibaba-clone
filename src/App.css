@@ -33,13 +33,23 @@ option.opt1 {
   justify-content: center;
   width: 100vw;
 }
-.parent {
+.parent4 {
   display: flex;
   border: 1px outset;
   margin: 6px;
   padding: 17px;
-  background-color: ghostwhite;
+  background-color: white;
+  border-radius: 16px;
 }
+/* .parent {
+  background-color: white;
+  display: grid;
+} */
+/* .parent2 {
+  background-color: white;
+  display: grid;
+} */
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -49,15 +59,16 @@ option.opt1 {
   justify-content: center;
   width: 100vw;
 }
-.parent2 {
+.parent5 {
   display: flex;
   border: 1px outset;
   margin: 6px;
   padding: 17px;
-  background-color: ghostwhite;;
+  background-color: white;
+  border-radius: 16px;
 }
-.key {
-  height: 257px;
+.key2 {
+  height: 190px;
 }
 .ul{
   display: flex;
@@ -176,4 +187,127 @@ input.submitbutton {
 }
 .App2{
   background-color: ghostwhite;
+}
+
+.grid2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  background-color: ghostwhite;
+  justify-content: center;
+}
+.grid3 {
+  display: flex;
+  border: 1px outset;
+  background-color: white;;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+.grid6{
+  display: flex;
+  margin: 6px;
+}
+.grid4 {
+  display: flex;
+  align-items: stretch;
+}
+.gridchild {
+  display: flex;
+  /* border: 1px outset; */
+  margin: 6px;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: ghostwhite;
+  flex-direction: column;
+  
+} 
+.gridchild2 {
+  display: flex;
+  border-radius: 10px;
+  /* border: 1px outset; */
+  margin: 6px;
+  padding: 7px;
+  background-color: ghostwhite;
+  flex-direction: column;
+} 
+.map2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  background-color: ghostwhite;
+  margin-left: 67px;  
+}
+.map{
+  background-color: ghostwhite;
+}
+.map5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.map3{
+    /* flex: 1 1; */
+    position: relative;
+    border-top: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    padding: 16px;
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 123px;
+}
+.product .price {
+  text-align: center;
+    font-size: 12px;
+    color: #333;
+    font-weight: 700;
+    /* display: -webkit-box; */
+    line-height: 14px;
+    height: 14px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    /* overflow: hidden; */
+    margin-top: 5px;
+}
+.product .value{font-size: 12px;
+    color: #666;
+    line-height: 14px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.child .mapchild {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.child .mapchild2 {
+color: #666;
+overflow: hidden;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1
+}
+.child .mapchild3{
+  height: 40px;
+}
+.map .h3{
+  margin-top: 0; 
+  padding-left: 70px;
+}
+.viewchild {
+  display: table-caption;
+  text-align: center;
 }

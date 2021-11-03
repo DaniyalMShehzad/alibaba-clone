@@ -136,70 +136,88 @@ function Cards() {
         <div className="main">
         <div className="card">
             <div className="parent">
+                <h4>New Arrivals</h4>
+                <div className="parent4">
             {arr.map((e, i) => {
                 return (
-                    <Card  key={i}>
+                    <Card className="key product"   key={i}>
                         <img src={e.img}/>
-                        <p><br/>{e.price}</p>
-                        <p><br/>{e.value}</p>                    
+                        <p className="price"><br/>{e.price}</p>
+                        <p className="value"><br/>{e.value}</p>                    
                     </Card>
                 )
             })}
             </div>
+            </div>
             <div className="parent">
+                <h4>Top-ranked Products</h4>
+                <div className="parent4">
             {arr2.map((e, i) => {
                 return (
-                    <Card  key={i}>
+                    <Card  className="key product"  key={i}>
                         <img src={e.img}/>
-                        <p><br/>{e.price}</p>
-                        <p><br/>{e.value}</p>                    
+                        <p className="price"><br/>{e.price}</p>
+                        <p className="value"><br/>{e.value}</p>                    
                     </Card>
                 )
             })}
             </div>
+            </div>
             <div className="parent">
+                <h4>Personal Protective Equipment</h4>
+                <div className="parent4">
             {arr3.map((e, i) => {
                 return (
-                    <Card className="key" key={i}>
+                    <Card className="key2 product" key={i}>
                         <img src={e.img}/>
-                        <p><br/>{e.price}</p>                   
+                        <p className="price"><br/>{e.price}</p>                   
                     </Card>
                 )
             })}
+            </div>
             </div>
             </div>
             <div className="cards">
             <div className="parent2">
+            <h4>Dropshipping</h4>
+            <div className="parent5">
             {arr4.map((e, i) => {
                 return (
-                    <Card  key={i}>
+                    <Card className="key product"  key={i}>
                         <img src={e.img}/>
-                        <p><br/>{e.price}</p>
-                        <p><br/>{e.value}</p>                    
+                        <p className="price"><br/>{e.price}</p>
+                        <p className="value"><br/>{e.value}</p>                    
                     </Card>
                 )
             })}
             </div>
+            </div>
             <div className="parent2">
+            <h4>Global Original Sources</h4>
+            <div className="parent5">
             {arr5.map((e, i) => {
                 return (
-                    <Card  key={i}>
+                    <Card className="key product"  key={i}>
                         <img src={e.img}/>
-                        <p><br/>{e.price}</p>
-                        <p><br/>{e.value}</p>                    
+                        <p className="price"><br/>{e.price}</p>
+                        <p className="value"><br/>{e.value}</p>                    
                     </Card>
                 )
             })}
             </div>
+            </div>
             <div className="parent2">
+            <h4> True View</h4>
+            <div className="parent5">
             {arr6.map((e, i) => {
                 return (
-                    <Card className="key" key={i}>
+                    <Card className="key2 product" key={i}>
                         <img src={e.img}/>
-                        <p><br/>{e.price}</p>                 
+                        <p className="price"><br/>{e.price}</p>                 
                     </Card>
                 )
             })}
+            </div>
             </div>
         </div>
         </div>

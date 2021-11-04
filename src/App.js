@@ -9,20 +9,22 @@ import Cards3 from './cards/cards3';
 import Cards4 from './cards/cards4';
 import Cards5 from './cards/cards5';
 import Cards6 from './cards/cards6';
+import Cards7 from './cards/cards7';
 function App() {
   return (
     <div className="App">
       <PrimarySearchAppBar/>
       <Navbar2/>
       <div className="app2">
-      {/* <SwipeableTextMobileStepper/> */}
+      <SwipeableTextMobileStepper/>
       <Cards/>
       <Card2/>
       <Cards3/>
       <Cards4/>
       <Cards5/>
       <Cards6/>
-      {/* <Footer/> */}
+      <Cards7/>
+      <Footer/>
       </div>
     </div>
   );

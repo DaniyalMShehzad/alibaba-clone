@@ -4,12 +4,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import TextField from '@mui/material/TextField';
-import MenuIcon from '@mui/icons-material/Menu';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import ChatIcon from '@mui/icons-material/Chat';
-import LoginIcon from '@mui/icons-material/Login';
 import UploadButtons from './upload';
 
 

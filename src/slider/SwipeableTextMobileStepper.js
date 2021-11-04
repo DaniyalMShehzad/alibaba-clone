@@ -66,9 +66,8 @@ function SwipeableTextMobileStepper() {
   return (
     <div className="slider">
       <div className="sli">
-            <h1>My Markets</h1>
           <div className="class1">
-          <MultipleSelect/>
+          {/* <MultipleSelect/> */}
           {/* <MultipleSelect2/>
           <MultipleSelect3/>
           <MultipleSelect4/>
@@ -77,6 +76,7 @@ function SwipeableTextMobileStepper() {
           <MultipleSelect7/>
           <MultipleSelect8/> */}
         </div>
+        <div className="scrollbar">
     <Box className="scrolling" sx={{ maxWidth: 600, flexGrow: 1 }}>
       <Paper
         square
@@ -96,7 +96,7 @@ function SwipeableTextMobileStepper() {
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
-      >
+        >
         {images.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
@@ -122,16 +122,16 @@ function SwipeableTextMobileStepper() {
         activeStep={activeStep}
         nextButton={
           <Button
-            size="small"
-            onClick={handleNext}
-            disabled={activeStep === maxSteps - 1}
+          size="small"
+          onClick={handleNext}
+          disabled={activeStep === maxSteps - 1}
           >
             Next
             {theme.direction === 'rtl' ? (
               <KeyboardArrowLeft />
-            ) : (
-              <KeyboardArrowRight />
-            )}
+              ) : (
+                <KeyboardArrowRight />
+                )}
           </Button>
         }
         backButton={
@@ -140,13 +140,14 @@ function SwipeableTextMobileStepper() {
               <KeyboardArrowRight />
             ) : (
               <KeyboardArrowLeft />
-            )}
+              )}
             Back
           </Button>
         }
-      />
+        />
     </Box>
     </div>
+        </div>
     </div>
   );
 }

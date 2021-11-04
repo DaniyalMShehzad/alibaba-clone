@@ -64,7 +64,7 @@ function Cards3(){
             })} 
             {arr2.map((e,i)=>{
                 return(
-                    <Card key={i} className="map3 child">
+                    <Card key={i} className="map4 child">
                        <h4 className="mapchild">{e.name}</h4>
                         <p className="mapchild2">{e.description}</p>
                         <img className="mapchild3" src={e.img}/>

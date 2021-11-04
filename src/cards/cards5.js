@@ -50,7 +50,7 @@ function Cards5(){
             <h4 className="h3">VEHICLES & ACCESSORIES</h4>
             <div className="map2">
             <div className="mapimg">
-                <img src="https://img.alicdn.com/tfs/TB1J5jev7voK1RjSZPfXXXPKFXa-300-320.png"/>
+                <img src="https://img.alicdn.com/tfs/TB1uW2kv3HqK1RjSZFkXXX.WFXa-300-320.png"/>
             </div>
             <div className="map5">
             {arr.map((e,i)=>{
@@ -64,7 +64,7 @@ function Cards5(){
             })} 
             {arr2.map((e,i)=>{
                 return(
-                    <Card key={i} className="map3 child">
+                    <Card key={i} className="map4 child">
                        <h4 className="mapchild">{e.name}</h4>
                         <p className="mapchild2">{e.description}</p>
                         <img className="mapchild3" src={e.img}/>

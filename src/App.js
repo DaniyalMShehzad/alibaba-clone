@@ -22,7 +22,7 @@ function App() {
       <Cards3/>
       <Cards4/>
       <Cards5/>
-      <Cards6/>
+      {/* <Cards6/> */}
       <Cards7/>
       <Footer/>
       </div>

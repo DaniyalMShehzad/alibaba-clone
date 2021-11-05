@@ -23,9 +23,9 @@ function Navbar2(){
                 <option className="opt">Energy / Environment</option>
              </select>
              {/* <hr/> */}
-             <p>Trade Shows</p>
-             <p>Personal Protective Equipment</p> 
-             <p>Trade Shows</p>
+             <p className="trade1">Trade Shows</p>
+             <p className="trade1">Personal Protective Equipment</p> 
+             <p className="trade1">Trade Shows</p>
              <select className="select">
                 <option className="opt1">Buyer Central</option>
                 <option className="opt">Blog</option>

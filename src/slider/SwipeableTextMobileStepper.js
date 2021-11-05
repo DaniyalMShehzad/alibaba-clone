@@ -67,8 +67,8 @@ function SwipeableTextMobileStepper() {
     <div className="slider">
       <div className="sli">
           <div className="class1">
-          {/* <MultipleSelect/> */}
-          {/* <MultipleSelect2/>
+          {/* <MultipleSelect/>
+          <MultipleSelect2/>
           <MultipleSelect3/>
           <MultipleSelect4/>
           <MultipleSelect5/>
@@ -77,7 +77,7 @@ function SwipeableTextMobileStepper() {
           <MultipleSelect8/> */}
         </div>
         <div className="scrollbar">
-    <Box className="scrolling" sx={{ maxWidth: 600, flexGrow: 1 }}>
+    <Box className="scrolling" sx={{ maxWidth: 480, flexGrow: 1 }}>
       <Paper
         square
         elevation={0}
@@ -122,6 +122,7 @@ function SwipeableTextMobileStepper() {
         activeStep={activeStep}
         nextButton={
           <Button
+          disabled
           size="small"
           onClick={handleNext}
           disabled={activeStep === maxSteps - 1}

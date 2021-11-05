@@ -60,7 +60,7 @@ function Card2(){
                         {arr.map((e,i)=>{
                             return(
                             <Card>
-                            <img key={i} src={e.img}/>
+                            <img className="ship2" key={i} src={e.img}/>
                             </Card>
                         )
                         })}
@@ -72,7 +72,7 @@ function Card2(){
                         {arr2.map((e,i)=>{
                             return(
                             <Card>
-                            <img key={i} src={e.img}/>
+                            <img className="ship2" key={i} src={e.img}/>
                             </Card>
                             )
                         })}
@@ -91,7 +91,7 @@ function Card2(){
                         {arr3.map((e,i)=>{
                             return(
                             <Card>
-                            <img key={i} src={e.img}/>
+                            <img className="ship2" key={i} src={e.img}/>
                             </Card>
                             )
                         })}
@@ -103,7 +103,7 @@ function Card2(){
                         {arr4.map((e,i)=>{
                             return(
                             <Card>
-                            <img  key={i} src={e.img}/>
+                            <img className="ship2" key={i} src={e.img}/>
                             </Card>
                         )
                         })}

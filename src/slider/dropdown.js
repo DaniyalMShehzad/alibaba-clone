@@ -67,7 +67,7 @@ function getStyles(name, personName, theme) {
   };
 }
 
-export default function MultipleSelect() {
+export default function MultipleSelect1() {
   const theme = useTheme();
   const [personName, setPersonName] = React.useState([]);
 
@@ -82,15 +82,29 @@ export default function MultipleSelect() {
   };
 
   return (
-    <div className="hover">
-        <InputLabel id="demo-multiple-name-label">Consumers Electronics</InputLabel>
-          {names.map((name) => {
+    <div>
+      <FormControl sx={{ m: 1, width: 150 }}>
+        <InputLabel id="demo-multiple-name-label">Costumers</InputLabel>
+        <Select
+          labelId="demo-multiple-name-label"
+          id="demo-multiple-name"
+          multiple
+          value={personName}
+          onChange={handleChange}
+          input={<OutlinedInput label="Name" />}
+          MenuProps={MenuProps}
+        >
+          {names.map((name) => (
             <MenuItem
               key={name}
+              value={name}
+              style={getStyles(name, personName, theme)}
             >
               {name}
             </MenuItem>
-          })}
+          ))}
+        </Select>
+      </FormControl>
     </div>
   );
 }

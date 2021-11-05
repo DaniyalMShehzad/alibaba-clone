@@ -66,29 +66,51 @@ function Footer(){
         </div>
         <div className="alilbabagroup">
         <p className="comchild">Alibaba Group</p>
-        <p >|</p>
+        <p className="line" >|</p>
         <p className="comchild">Taobao Marketplace</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">Tmall.com</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">Juhuasuan</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">AliExpress</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">Alibaba.com</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">1688.com</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">Alimama</p>
-        <p>|</p>
+        <p className="line" >|</p>
         <p className="comchild">Fliggy</p> 
-        <p>|</p> 
-        </div>
+        <p className="line">|</p> 
         <p className="comchild">Tmall Taobao World</p>
-        <p className="comchild">Alibaba Cloud | AliOS | AliTelecom | Autonavi | UCWeb | Umeng | Xiami | DingTalk | Alipay | Lazada | Alibaba Security</p>
-        <p className="comchild">Browse Alphabetically: Onetouch | Showroom | Country Search | Suppliers | Affiliate</p>
-        <p className="comchild">Product Listing Policy - Intellectual Property Protection - Privacy Policy - Terms of Use - User Information Legal Enquiry Guide</p>
-        <p className="comchild">© 1999-2021 Alibaba.com. All rights reserved. 33010002000092  B2-20120091-4</p>
+        </div>
+        <div className="alilbabagroup">
+        <p className="comchild">Alibaba Cloud</p> 
+        <p className="line">|</p>
+        <p className="comchild">AliOS</p>
+        <p className="line">|</p>
+        <p className="comchild">AliTelecom</p>
+        <p className="line">|</p>
+        <p className="comchild">Autonavi</p>
+        <p className="line">|</p>
+        <p className="comchild">UCWeb</p>
+        <p className="line">|</p>
+        <p className="comchild">Umeng</p>
+        <p className="line">|</p>
+        <p className="comchild">Xiami</p>
+        <p className="line">|</p>
+        <p className="comchild">DingTalk</p>
+        <p className="line">|</p>
+        <p className="comchild">Alipay</p>
+        <p className="line">|</p>
+        <p className="comchild">Lazada</p>
+        <p className="line">|</p>
+        <p className="comchild">Alibaba Security</p>
+        </div>
+        <div className="alilbabagroup">
+        <p>© 1999-2021 Alibaba.com. All rights reserved. 33010002000092  B2-20120091-4</p>
+        </div>
         </div>
         </div>
         </>

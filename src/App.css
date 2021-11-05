@@ -138,17 +138,8 @@ button.buttonsubscribe {
 .box{
   background-color: white !important;
 } */
-
-@media (min-width:600px){
-  .App{
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
-}
-.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-1t29gy6-MuiToolbar-root {
-  background-color: white;
-  color: rgba(0, 0, 0, 0.39);
+.box header{
+  background-color: white !important;
 }
 .textfield {
   width: 307px;
@@ -157,13 +148,14 @@ button.buttonsubscribe {
 }
 .slider{
   background-color: ghostwhite;
+  width: 100vw;
 }
 
 .sli{
   background-color: white;
   border: 1px outset;
   margin: 0px auto;
-  width: 100vw;
+  width: 85vw;
 }
 .choise {
   display: flex;
@@ -209,6 +201,9 @@ select.choose {
 .flexgrow {
   color: darkorange;
   font-family: unset;
+}
+.App{
+  width: 100vw;
 }
 .App2{
   background-color: ghostwhite;
@@ -434,6 +429,9 @@ p.area {
   display: flex;
   justify-content: center;font-size: small;
 }
+p.trade1 {
+  margin: 16px;
+}
 .alilbabagroup{
   display: flex;
   justify-content: center;
@@ -547,18 +545,71 @@ p.area {
   justify-content: center;
   align-items: center;
 }
-.weeklydeal{
-    display: flex;
-    justify-content: space-evenly;
-
-}
 .order3{
   flex-wrap: wrap;
   justify-content: center;
   
 }
+.trade1:hover{
+  color: orange;
+}
+p.buttonp {
+  margin-top: 12px;
+  font-size: xx-small;
+  color: black;
+}
+.opt1:hover{
+  color: orange;
+}
+.opt:hover{
+  color: orange;
+}
+.logo1 {
+  display: block;
+}
+.logo2 {
+  display: block;
+}
+.weeklydeals {
+  margin-top: 0px;
+  display: flex!important;
+}
+.weeklydeal {
+  display: flex;
+}
+p.area2 {
+  margin-top: 0px;
+}
+.app2 {
+  width: 90vw;
+  background-color: ghostwhite;
+}
 
 @media (max-width:1024px) {
+  .order {
+    width: 100vw;
+}.grid2 {
+  width: 100vw;
+}
+  .box{
+    background-color: white;
+    width: 100vw !important;
+  }.map5 .map3 {
+    width: 233px;
+}li.lichild {
+  font-size: smaller;
+}.footer {
+  width: 100vw;
+}.slider {
+  background-color: ghostwhite;
+  width: 100vw;
+}.card {
+  width: 100vw;
+}.cards {
+  width: 100;
+}.map {
+  width: 100vw;
+}
   .choise{
     width: 370px;
     height: 17px;
@@ -570,9 +621,9 @@ p.area {
     padding-right: 0px;
     margin-left: -25px;
 }.parent4{
-  width: 290px;
+  width: 355px;
 }.parent5{
-  width: 290px;
+  width: 355px;
 }.grid3{
   width: 85vw;
 }.gridchild{
@@ -583,8 +634,6 @@ p.area {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-}.map3{
-  width: 258px;
 }.map4{
   display: none;
 }.view3{
@@ -594,5 +643,110 @@ p.area {
   width: calc(100% / 5);
 }.order3 .description{
   height: 61px;
+}p.trade1 {
+  margin: 0px;
+}select.select {
+  width: 148px;
+  height: 52px;
+  margin: 0
+}p.buttonp {
+  margin-top: 12px;
+  margin: 0px;
+  font-size: xx-small;
+}p.line {
+  font-size: medium;
+}
+}
+@media (max-width:768px){
+  .box {
+    width: 100vw !important;
+}
+.slider {
+  background-color: ghostwhite;
+  width: 100vw;
+}.card {
+  width: 100vw;
+}.cards {
+  width: 100vw;
+}.grid2 {
+  width: 100vw;
+}.map5 .map3 {
+  width: 123px;
+}.map {
+  width: 100vw;
+}.order {
+  width: 100vw;
+}.order4 {
+  width: 183px;
+}
+.logo2{
+    display: none !important;
+}p.trade1 {
+  display: none !important;
+}select.select {
+  margin-left: 32px;
+}.parent4 {
+  width: 621px;
+  justify-content: space-evenly;
+}.parent5 {
+  width: 632px;
+  justify-content: space-around;
+}.child .mapchild {
+  margin-top: 0px;
+  font-size: small;
+}.child .mapchild2 {
+  font-size: small;
+}.view3 {
+  display: block;
+}.weeklydeal {
+  display: block;
+}input.placeemail {
+  width: 35%;
+}button.buttonsubscribe {
+  width: 13%;
+}li.lichild {
+  font-size: smaller;
+}.comchild {
+  font-size: smaller;
+}p.line {
+  font-size: smaller;
+}
+}
+
+@media (max-width:1440px){
+.box {
+    width: 100vw !important;
+}
+  .map3 {
+    width: 181px;
+}
+.map4 {
+  width: 181px;
+}.box {
+  width: 95.5vw;
+}.grid3 {
+  width: 75vw;
+}
+.gridchild {
+  width: 33vw;
+  justify-content: space-around;
+}.gridchild2 {
+  width: 33vw;
+  justify-content: space-around;
+}.grid4 {
+  justify-content: space-evenly;
+}img.ship2 {
+  width: 120px;
+}.slider {
+  background-color: ghostwhite;
+  width: 100vw;
+}.grid2 {
+  width: 100vw;
+}.map {
+  width: 100vw;
+}.order2 {
+  width: 100vw;
+}.footer {
+  width: 100vw;
 }
 }

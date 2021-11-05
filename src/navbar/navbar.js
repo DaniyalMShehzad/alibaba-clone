@@ -5,8 +5,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import UploadButtons from './upload';
-
-
+import LoginIcon from '@mui/icons-material/Login';
+import MessageIcon from '@mui/icons-material/Message';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 export default function ButtonAppBar() {
   return (
     <div className="box">
@@ -25,10 +26,10 @@ export default function ButtonAppBar() {
           <UploadButtons/>
           <input className="submitbutton" type="submit" placeholder="Search" />
           </div>
-          <Button className="logo1"><br/>Sign in<br/>for free</Button>
-          <Button className="logo2"><br/>Messages</Button>
-          <Button className="logo3">$<br/>orders</Button>
-          <Button className="logo4"><br/>cart</Button>
+          <Button className="logo2"><LoginIcon/><p className="buttonp">Sign in for free</p></Button>
+          <Button className="logo2"><MessageIcon/><p className="buttonp">Messages</p></Button>
+          <Button className="logo2">$<p className="buttonp">orders</p></Button>
+          <Button className="logo1"><AddShoppingCartIcon/><p>cart</p></Button>
         </Toolbar>
       </AppBar>
     </Box>
